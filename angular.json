@@ -99,7 +99,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/checkbox-example/",
+            "repo": "https://github.com/Matthew-The-Developer/checkbox-example.git"
+          }
         }
       }
     }
