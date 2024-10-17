@@ -2,24 +2,37 @@
   <mat-card appearance="outlined">
     <mat-card-content>
       <div class="checkbox-group">
-        <small class="label">Conditions</small>
-        <mat-checkbox>Abdominal aortic aneurysm</mat-checkbox>
-        <mat-checkbox>Achillies tendinopathy</mat-checkbox>
-        <mat-checkbox>Acne</mat-checkbox>
-        <mat-checkbox>Acute cholecystitis</mat-checkbox>
-        <mat-checkbox>Acute lymphoblastic leukaemia</mat-checkbox>
-        <mat-checkbox>Acute lymphoblastic leukaemia: Children</mat-checkbox>
-        <mat-checkbox>Acute lymphoblastic leukaemia: Teenagers and young adults</mat-checkbox>
-        <mat-checkbox>Acute myeloid leukaemia</mat-checkbox>
-        <mat-checkbox>Acute myeloid leukaemia: Children</mat-checkbox>
-        <mat-checkbox>Acute myeloid leukaemia: Teenagers and young adults</mat-checkbox>
-        <mat-checkbox>Acute pancreatitis</mat-checkbox>
-        <mat-checkbox>Addison's disease</mat-checkbox>
-        <mat-checkbox>Adenomyosis</mat-checkbox>
-        <mat-checkbox>Alcohol-related liver disease</mat-checkbox>
-        <mat-checkbox>Allergic rhinitis</mat-checkbox>
-        <mat-checkbox>Allergies</mat-checkbox>
-        <mat-checkbox>Alzheimer's disease</mat-checkbox>
+        <small class="label">Tasks</small>
+        <mat-checkbox>
+          <div class="task">
+            Task 1242: Discuss diet education with patient
+            <small>Recommended</small>
+          </div>
+        </mat-checkbox>
+        <mat-checkbox>
+          <div class="task">
+            Task 4953: Summarize lab results
+            <small>Recommended</small>
+          </div>
+        </mat-checkbox>
+        <mat-checkbox>
+          <div class="task">
+            Task 9995: Provide at home safe materials to patient
+            <small>Recommended</small>
+          </div>
+        </mat-checkbox>
+        <mat-checkbox>
+          <div class="task">
+            Task 5843: Check port condition
+            <small>Recommended</small>
+          </div>
+        </mat-checkbox>
+        <mat-checkbox>
+          <div class="task">
+            Task 8534: Check patient's contact information
+            <small>Optional</small>
+          </div>
+        </mat-checkbox>
       </div>
     </mat-card-content>
   </mat-card>
@@ -27,25 +40,38 @@
   <mat-card appearance="outlined">
     <mat-card-content>
       <mat-form-field appearance="outline">
-        <mat-label>Conditions</mat-label>
+        <mat-label>Tasks</mat-label>
         <mat-select multiple>
-          <mat-option value="1">Abdominal aortic aneurysm</mat-option>
-          <mat-option value="2">Achillies tendinopathy</mat-option>
-          <mat-option value="3">Acne</mat-option>
-          <mat-option value="4">Acute cholecystitis</mat-option>
-          <mat-option value="5">Acute lymphoblastic leukaemia</mat-option>
-          <mat-option value="6">Acute lymphoblastic leukaemia: Children</mat-option>
-          <mat-option value="7">Acute lymphoblastic leukaemia: Teenagers and young adults</mat-option>
-          <mat-option value="8">Acute myeloid leukaemia</mat-option>
-          <mat-option value="9">Acute myeloid leukaemia: Children</mat-option>
-          <mat-option value="10">Acute myeloid leukaemia: Teenagers and young adults</mat-option>
-          <mat-option value="11">Acute pancreatitis</mat-option>
-          <mat-option value="12">Addison's disease</mat-option>
-          <mat-option value="13">Adenomyosis</mat-option>
-          <mat-option value="14">Alcohol-related liver disease</mat-option>
-          <mat-option value="15">Allergic rhinitis</mat-option>
-          <mat-option value="16">Allergies</mat-option>
-          <mat-option value="17">Alzheimer's disease</mat-option>
+          <mat-option value="1">
+            <div class="task">
+              Task 1242: Discuss diet education with patient
+              <small>Recommended</small>
+            </div>
+          </mat-option>
+          <mat-option value="2">
+            <div class="task">
+              Task 4953: Summarize lab results
+              <small>Recommended</small>
+            </div>
+          </mat-option>
+          <mat-option value="3">
+            <div class="task">
+              Task 9995: Provide at home safe materials to patient
+              <small>Recommended</small>
+            </div>
+          </mat-option>
+          <mat-option value="4">
+            <div class="task">
+              Task 5843: Check port condition
+              <small>Recommended</small>
+            </div>
+          </mat-option>
+          <mat-option value="5">
+            <div class="task">
+              Task 8534: Check patient's contact information
+              <small>Optional</small>
+            </div>
+          </mat-option>
         </mat-select>
       </mat-form-field>
     </mat-card-content>

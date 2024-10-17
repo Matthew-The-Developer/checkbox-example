@@ -15,16 +15,21 @@
       .checkbox-group {
         display: flex;
         flex-flow: column wrap;
+        gap: 0.5rem;
 
         .label {
           color: rgba($color: #000000, $alpha: 0.56);
         }
       }
 
-
       mat-form-field {
         width: 100%;
       }
     }
   }
+}
+
+.task {
+  display: flex;
+  flex-flow: column;
 }

@@ -1,3 +1,5 @@
+A live example of Dos and Don'ts for checkbox lists to be used as referrence in a wiki.
+
 [Github Pages](https://matthew-the-developer.github.io/checkbox-example/)
 
 # CheckboxExample
